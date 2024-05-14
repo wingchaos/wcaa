@@ -1,0 +1,709 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="monicaqin">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="stylesheet" type="text/css" href="./css.css">
+<script type="text/javascript" src="config/jquery-3.2.1.min.js"></script>
+<title>波波ACT美化</title>
+	
+		<script>var wsUri = "ws://@HOST_PORT@/MiniParse"; /*DO NOT EDIT THIS VALUE*/</script>
+		<script src="js/wsclass.js"></script>
+		<script src="js/cleave.js"></script>
+		
+<!-- by 紫水栈桥 波波鸟，共同交流
+if(window.layer&& layer.type === 'ws'&& location.host === '5401c699-a69b-4e31-9b87-7a0f40b2a304.coding.io')
+ { location.href = 'kagero.wchaos.xyz/overlay' + location.search }
+document.write(window.layer+"<br>"); 
+document.write(layer.type+"<br>"); 
+ document.write(location.host+"<br>"); -->
+	<!-- background-image: url('images/B0G.jpg'); -->
+	<!-- background-position: center; -->
+	<!-- background-repeat: repeat; -->
+	<!-- box-sizing: border-box; -->
+	<!-- height: 100%; -->
+	<!-- background-color: transparent; -->
+	<!-- overflow: hidden; -->
+
+
+<script>
+		if(!onACTWebSocket)
+		{
+			$(".capturebtn").remove();
+		}
+	var dataset = [];
+	
+	var setting = {};
+	setting.topOffset = 40;			// For positioning purposes should be like this
+	setting.boxHeight = 50; 		// This gives that little overlap to match the original
+	var panduan=-1;
+	var myRoleName="帅气的我";
+	//==============================================
+	// STUFF THAT CAN BE CONFIGURED BY THE USER GOES HERE
+	
+	setting.flashEnabled = true;	// Set to false to disable flash
+	setting.maxDisplay = 11;			// Number of rows to display
+	setting.transitionTime = 5;		// Rank animation time, lower = shorter
+	setting.fps = 60;				// Drawing fps
+	
+	setting.nameInitials = "default"; 	// Set name abbreviation rule: "default", "first", "last" or "initials"
+	
+	//==============================================
+	
+	var flashFlag = false;
+	var flashPos;
+	var maxHit = 0;
+		
+
+		//
+		// プラグイン側から以下のような ActXiv オブジェクトとしてデータが提供される
+		//
+		// var ActXiv = {
+		//	"Encounter": {...},
+		//	"Combatant": {
+		//		"PlayerName1": {...},
+		//		"PlayerName2": {...},
+		//		...
+		//	}
+		// };
+		//
+		// データの更新は 1 秒毎。
+		//
+		// プラグインから onOverlayDataUpdate イベントが発行されるので、それを受信することもできる
+		// イベントハンドラの第一引数の detail プロパティ内に上記のオブジェクトが入る
+		//
+
+		//
+		// 表示設定 (2)
+		//
+
+
+		//
+		// 以下表示用スクリプト
+		//
+		// onOverlayDataUpdate イベントを購読
+		document.addEventListener("onOverlayDataUpdate", function (e) {
+			update(e.detail);
+		});
+
+		var ranking = new Array(); // TODO give this var a better name
+		var prevRank;
+		
+				// ACTWebSocket 적용    
+  
+// 해상도 변경 적용
+  function windowmode() {
+    var el = document
+        , rfs = // for newer Webkit and Firefox
+               el.exitFullScreen
+            || el.webkitExitFullscreen
+            || el.mozCancelFullScreen
+            || el.msExitFullScreen
+    rfs.call(el);
+  }
+  function fullscreen() {
+    var el = document.documentElement
+        , rfs = // for newer Webkit and Firefox
+               el.requestFullScreen
+            || el.webkitRequestFullScreen
+            || el.mozRequestFullScreen
+            || el.msRequestFullscreen
+    ;
+    rfs.call(el);
+  }
+  function isFullscreen()
+  {
+    return (document.fullscreen || document.webkitIsFullScreen || document.mozFullScreen || document.msFullscreenElement);
+  }
+    
+  $(document).on('webkitfullscreenchange mozfullscreenchange fullscreenchange', function(e)    
+  {
+  try{
+      var isfullscreen = isFullscreen();
+
+      if (!isfullscreen) {
+        resize_contents();
+             console.log('not fullscreen');
+      } else {
+        resize_contents();
+             console.log('fullscreen');
+      }
+  }catch(e)
+  {alert(e);}
+  });
+  function resize_contents() {
+      var scale = window.innerWidth / content_width;
+	  var CurrentZoneName="";
+      document.body.style.transform = 'scale(' + scale + ')';
+      document.body.style['-o-transform'] = 'scale(' + scale + ')';
+      document.body.style['-webkit-transform'] = 'scale(' + scale + ')';
+      document.body.style['-moz-transform'] = 'scale(' + scale + ')';
+      $("#content").width(content_width + "px")
+      var isfullscreen = isFullscreen();
+      if(isfullscreen)
+      {
+        $("#fullscreen").addClass("hide")
+        $("#window").removeClass("hide")
+      }
+      else
+      {
+        $("#fullscreen").removeClass("hide")
+        $("#window").addClass("hide")
+      }
+  }
+// 수정 끝.
+		// 表示要素の更新
+		//替换最强伤害 日文英文为中文
+		
+		
+
+		function updateNum(numm){
+			var str=numm;
+			if(str.length <3){
+				for(var x = 0;x < 4 -str.length ;x++){
+					str='0'+str;
+				}
+			}
+			return str;		
+		}
+		function updateNumP(numm){
+			var str=numm;
+			if(numm<10){
+				str='&ensp;'+str;
+			}
+			return str;
+			
+		}
+function towan(num){
+    var str;
+    if(!isNaN(num))
+    {
+        if(parseInt(num)<10000){
+            str=num;
+         }
+        else{
+      //   str= (parseInt(num))/10000+"万";
+      str= ((parseInt(num))/10000).toFixed(1)+"万";
+        }
+    }
+        return str;
+}
+function tohalf(num){
+	var str=parseInt(num);
+	return str/2;
+}
+		function update(data) {
+			var encDiv = document.getElementById("encounter2");
+			var timeDiv=document.getElementById("time1");
+			var dateDiv=document.getElementById("date1");
+			var timeNow=new Date().toLocaleTimeString();
+			var dateNow=new Date().toLocaleDateString();
+			var deathCounts=0;
+			var endCombat=parseInt(parseActFormat("{deaths}" , data.Encounter));
+			// DRAWS TITLE  +  "<td33 align='center'>" + parseActFormat("{duration}" , data.Encounter)+"</td33></tr></table>"
+			encDiv.innerHTML =	"<table cellspacing=0 cellpadding=0 font-size:7px ><tr><td width=80%>" +parseActFormat(" {CurrentZoneName}" , data.Encounter)+"</td>" ;
+			if(parseActFormat("{title}" , data.Encounter)=="Encounter"){
+				encDiv.innerHTML +="<table cellspacing=0 cellpadding=0 font-size:7pt><tr><td width=35% >"  + "战斗ing。。。" +"</td></tr></table>";
+			}
+			else 
+				encDiv.innerHTML +="<table cellspacing=0 cellpadding=0 font-size:7pt><tr><td width=35% >"  + parseActFormat("{title}" , data.Encounter) +"</td></tr></table>";
+				
+			encDiv.innerHTML +="<td44 align='left'>" + "&nbsp;【"+parseInt(parseActFormat("{deaths}" , data.Encounter)/2)+"亡-秒"+parseFloat((parseActFormat("{dps}" , data.Encounter))/2).toFixed(0)+
+			"-总"+towan(parseInt((parseActFormat("{damage}" , data.Encounter)))/2) + "】</td></tr></table>"+"</td><td align='left'>";+"</td44></tr></table>";
+			encDiv.innerHTML +="<td33 align='center'>" + parseActFormat("{duration}" , data.Encounter)+"</td33></tr></table>";
+			// RANKING, THIS VAR STORES DATA TO BE DISPLAYED
+			//团灭自动停止统计数据
+			if (endCombat>=8){
+				//OverlayPluginApi.endEncounter();
+				//OverlayPluginApi.endEncounter();
+			}
+			ranking = new Array(Object.keys(data.Combatant).length);
+			var i = 0;
+			maxHit = 0;
+			timeDiv.innerHTML=timeNow;
+			dateDiv.innerHTML=dateNow;
+			for(var combName in data.Combatant) {
+				if(!data.Combatant.hasOwnProperty(combName)) continue;
+				ranking[i] = {};
+				ranking[i].crth=data.Combatant[combName]["crithits"];
+				ranking[i].hfld=data.Combatant[combName]["hitfailed"];
+				ranking[i].name = data.Combatant[combName]["name"];
+				//ranking[i].hps  = parseInt(data.Combatant[combName]["enchps"].replace(/[\.,]+/g), ".").toFixed(0);
+				ranking[i].dps  = tohalf(parseInt(data.Combatant[combName]["encdps"].replace(/[\.,]+/g), ".")).toFixed(0);
+				ranking[i].hps  = tohalf(parseFloat(data.Combatant[combName]["enchps"].replace(/[\.,]+/g) ,".")).toFixed(0);
+				ranking[i].dmg  = tohalf(parseInt(data.Combatant[combName]["damage"]));
+				ranking[i].dmgp = data.Combatant[combName]["damage%"];
+				ranking[i].hitss =tohalf(parseInt(data.Combatant[combName]["swings"]));
+				ranking[i].death =tohalf(data.Combatant[combName]["deaths"]);
+				ranking[i].dhc =tohalf(data.Combatant[combName]["DirectHitCount"]);
+				ranking[i].dhit =updateNum(tohalf(data.Combatant[combName]["DirectHitCount"]))+"次直击:"+updateNumP(parseFloat(data.Combatant[combName]["DirectHitPct"]).toFixed(1))+"%";//+","+data.Combatant[combName]["CritDirectHitCount"]+"次直暴";
+				ranking[i].dchp = updateNum(tohalf(data.Combatant[combName]["CritDirectHitCount"]))+"次直暴:"+updateNumP((((data.Combatant[combName]["CritDirectHitCount"])/(parseInt(data.Combatant[combName]["swings"])))*100).toFixed(1))+"%";//             +data.Combatant[combName]["CritDirectHitPct"]*100;
+				ranking[i].crtp = updateNum(tohalf(data.Combatant[combName]["crithits"]))+"次暴击:"+updateNumP((parseInt(data.Combatant[combName]["crithits"]) / parseInt(data.Combatant[combName]["swings"]) * 100).toFixed(1))+"%";
+				ranking[i].max  = parseInt(data.Combatant[combName]["MAXHIT"].replace(/[\.,]+/g ,""));
+				ranking[i].maxn= data.Combatant[combName]["maxhit"];
+				//(data.Combatant[combName]["MAXHIT"].substring(0,1));
+				
+				ranking[i].maxn=forTest(ranking[i].maxn.toString())+":"+towan(ranking[i].max);
+				//设置过万保护
+				ranking[i].deathcountss=0;
+				ranking[i].miss = tohalf(parseInt(data.Combatant[combName]["misses"]));	
+				// this is just to grab the correct glow icon
+				ranking[i].job = data.Combatant[combName]["Job"];
+				if(ranking[i].job == undefined || ranking[i].job  == "") {
+					ranking[i].job = ranking[i].name;
+					if(ranking[i].job.indexOf("-Egi (") != -1) {
+						ranking[i].job = ranking[i].job.substring(0, ranking[i].job.indexOf("-Egi ("));
+					} else if (ranking[i].job.indexOf("Eos (") == 0) {
+                    	ranking[i].job = "Eos";
+                	} else if (ranking[i].job.indexOf("Selene (") == 0) {
+                    	ranking[i].job = "Selene";
+                	} else if (ranking[i].job.indexOf("Carbuncle (") != -1) {
+						ranking[i].job = "Carbuncle"; 
+                	} else if (ranking[i].job.indexOf(" (") != -1) {
+						ranking[i].job = "choco";
+					} else if (ranking[i].job.indexOf("Limit Break") != -1) {
+						ranking[i].job = "LimitBreak";
+					} else {
+						ranking[i].job = "error";
+					} 
+				}
+				
+				// dps may be infinite at zero duration so this makes at least display something later
+				if(isNaN(ranking[i].dps)) {
+					ranking[i].dps = ranking[i].dmg;
+				}
+				
+				// saves the max hit here because i'm too lazy to parse from the encounter JSON
+				if(ranking[i].max > maxHit) maxHit = ranking[i].max;
+				
+				i++;
+			}
+			
+			// remove stuff dealing 0 damage
+			/*
+			var clean = new Array();
+			for(i = 0; i < ranking.length; i++) {
+				if(ranking[i].dmg > 0) {
+					clean.push(ranking[i]);
+				}
+			}
+			ranking = clean;
+			*/
+			// SORT AND UPDATE RANKINGS
+			ranking.sort(function(a, b){return b.dmg - a.dmg});
+			
+			if(prevRank === undefined) {
+				prevRank = new Array();
+			}
+			
+			// GET PREVIOUS RANKING
+			for (i = 0; i < ranking.length; i++) {
+				ranking[i].prev = -1; // this is "no previous rank"
+				if(ranking[i].name == "YOU") {
+					ranking[i].name=myRoleName;
+					}
+				if((ranking[i].name).length>=9)
+				{
+				   ranking[i].name=(ranking[i].name).substring(0,9);
+				}
+				// if has previous rank, calculate initial position
+				for (var j = 0; j < prevRank.length; j++) {
+					if (prevRank[j].name === ranking[i].name) {
+						ranking[i].prev = j;
+						continue;
+					}
+				}
+
+					
+				if(ranking[i].name == myRoleName) {
+				//	ranking[i].name="帅气的我我我";
+					ranking[i].alpha = (ranking[i].prev == -1)?0:1;
+					
+				}
+				if (ranking[i].prev == -1 || ranking[i].prev > setting.maxDisplay) { 		// for people joining the ranks (fade in)
+					ranking[i].y = setting.topOffset + setting.boxHeight * (i + 1);					
+					ranking[i].prev = i;
+				} else {
+					ranking[i].y = setting.topOffset + setting.boxHeight * ranking[i].prev;	// for everyone else (fade out if leaving)
+					ranking[i].alpha = 1;
+				}
+				
+				
+				// If get better deeps, then flashy effect (only when getting to top ranks tho)
+				if (ranking[i].name == myRoleName && i < ranking[i].prev && ranking[i].prev < setting.maxDisplay) {
+					flashFlag = true;
+					flashPos = Math.min(setting.maxDisplay - 1, ranking[i].prev);
+					t = 0;
+				}
+				
+
+			}
+			
+			//console.log(data);
+			//console.log(ranking);
+			
+			// UPDATE DATA;
+			prevRank = ranking;
+			//dataset.push(data); // for debug etc
+			
+		}
+
+		var t = 0;
+		
+		
+		// Draws stuff by clearing everything every time, so it may be slow as shit on lower end pcs
+		function draw() {
+		
+			var combDiv = document.getElementById("combatant");
+			
+			// Clears everything before drawing
+			while(combDiv.firstChild) {
+				combDiv.removeChild(combDiv.firstChild);
+			}
+
+			var myRank = -1;
+			for(i = 0; i < ranking.length; i++) {
+				if(ranking[i].name == "YOU") {
+					myRank = i;
+				}
+			}
+			
+			// if is scrub and does not even get in the top ranks
+			var isLast = (myRank >= setting.maxDisplay - 1);
+			
+			// the actual drawing part
+			for(i = 0; i < ranking.length; i++) {
+			
+				var box = document.createElement("div");
+				box.className = "combBox";
+				
+				if (i == setting.maxDisplay - 1 && myRank != -1 && isLast) {	// show at last on the list even if not on top ranks
+					i = myRank;
+					ranking[i].y = setting.topOffset + setting.boxHeight * (setting.maxDisplay - 1);
+					ranking[i].alpha +=  (1 - ranking[i].alpha) / setting.transitionTime;
+				
+				} else if(i >= setting.maxDisplay) {
+					if (ranking[i].prev < setting.maxDisplay)  { // fade out
+						ranking[i].y += ((setting.topOffset + setting.boxHeight * setting.maxDisplay) - ranking[i].y ) / setting.transitionTime;
+						ranking[i].alpha += (0 - ranking[i].alpha) / setting.transitionTime;
+					} else {
+						ranking[i].alpha = 0;
+					}
+				} else {
+					ranking[i].y += ((setting.topOffset + setting.boxHeight * i) - ranking[i].y ) / setting.transitionTime; 
+					if (ranking[i].prev < setting.maxDisplay)  {
+						ranking[i].alpha = 1;
+					} else {
+						ranking[i].alpha += (1 - ranking[i].alpha) / setting.transitionTime;
+					}
+					
+				}
+			var imgCombant="";
+			if (ranking[i].job=="Limit Break"||ranking[i].job=="limit Break"||ranking[i].job=="Limit break"||ranking[i].job=="limit break"||ranking[i].job=="LimitBreak"||ranking[i].job=="limitBreak"||ranking[i].job=="Limitbreak"||ranking[i].job=="limitbreak")
+				{
+					imgCombant =" <img src='images/glow/LimitBreak.png' width='40px' height='40px'>";
+					
+				}
+				else
+					 imgCombant =" <img src='images/glow/"+ranking[i].job+".png' width='40px' height='40px' >";
+					 box.innerHTML+=imgCombant;
+					if(ranking[i].dhc<=0){
+						ranking[i].dhit="";
+						ranking[i].dchp="";
+					}
+					if(ranking[i].crth<=0){
+						ranking[i].crtp="";
+						
+					}
+						box.innerHTML = "<div class='playerName" + ((i == myRank)?" me":"") + "'>" +imgCombant+ processName(ranking[i].name)+ "</div><br>";
+
+						
+				
+				// writing the deeps or damage
+				if (ranking[i].hps > 0) {
+					box.innerHTML += "<div class='hps' >"  +"<img src='images/rhps.png' width='13px' height='13px' >" +ranking[i].hps+"&nbsp;" +"</div>	";
+				}
+				if (ranking[i].dps > 0) {
+					
+					//box.innerHTML += "<div class='dmg'>"+"["  + ranking[i].hitss+"次攻"+ranking[i].dmgp+ "]" +"&nbsp;" +"</div><br>";
+					box.innerHTML += "<div class='dmg' >"  +"<img src='images/rdps.png' width='15px' height='15px' >" +ranking[i].dps+"&nbsp;" +"</div><br>";
+					}
+				<!-- } else { -->
+					<!-- if(ranking[i].dmg > 0) { -->
+						<!-- box.innerHTML += "<div class='dmg' style='font-style:italic'>" + towan(ranking[i].dmg) + "</div><br>"; -->
+					<!-- } else { -->
+						<!-- box.innerHTML += "<div class='dmg'>&nbsp;</div><br>" -->
+					<!-- } -->
+				<!-- } -->
+				
+				
+				// 百分比
+			
+				box.innerHTML += "<div class='max3' align='left'>"+ranking[i].crtp+"</div><br>";
+				box.innerHTML += "<div class='max4' align='left'>"+ranking[i].dhit+"</div><br>";
+				box.innerHTML += "<div class='max5' align='left'>"+ranking[i].dchp+"</div><br>";
+				
+			//	+ranking[i].dmgp+ranking[i].maxn.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "")
+				// fancy printing of max hit
+				
+
+				if (ranking[i].max > 0) { 
+					if (ranking[i].max == maxHit) {
+						box.innerHTML +="<div class='max1' style='color:gold'>"+(ranking[i].maxn.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ""))+ "</div>";
+						box.innerHTML += "<div class='max' style='color:gold'>"+ "攻击"+ranking[i].hitss+"次 "+ranking[i].dmgp+ "</div><br>"+"<div class='max0' style='color:gold'>" +"总-"+towan(ranking[i].dmg)+ "</div><br>";
+					} else {
+						box.innerHTML += "<div class='max1'>" +(ranking[i].maxn.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ""))+ "</div>";
+						box.innerHTML += "<div class='max'>" + "攻击"+ranking[i].hitss+"次"+ranking[i].dmgp+ "</div><br>"+"<div class='max0' >" +"总:"+towan(ranking[i].dmg)+ "</div><br>";
+					}
+				} else {
+						
+						box.innerHTML += "<div class='max'>&nbsp;</div><br>"+"<div class='max1' style='color:gold'>" +"总:"+towan(ranking[i].dmg)+ "</div><br>";
+				}
+				if(parseInt(ranking[i].death)>0){
+					box.innerHTML +=	"<div class='deathcount'>" +"x"+ ranking[i].death +"<img src='images/rip.png' width='24px' height='20px' >";	
+				}
+				if(parseInt(ranking[i].miss)>0){
+					box.innerHTML +=	"<div class='misscount'>" + ranking[i].miss +"miss&nbsp;";	
+				}
+				
+			//	if(deathCounts>=1){
+			//		OverlayPluginApi.endEncounter();}
+				
+				
+				
+				// COLOR SETTING
+				var tank   = ["Gld", "Gla", "Pld", "Mrd", "Gnb", "War", "Drk"];
+				var dps    = ["Pgl", "Mnk", "Lnc", "Drg", "Arc", "Brd", "Rog", "Nin", "Acn", "Smn", "Thm","Dnc",  "Blm", "Mch", "LimitBreak","Sam", "Rdm"];
+				var healer = ["Cnj", "Whm", "Sch", "Ast"];
+				
+				var maxOpacity = (i == myRank)?0.4:0.3;
+				var minOpacity = (i == myRank)?0.1:0.0;
+				var themeColor = "200,0,200";		
+				
+				if (healer.indexOf(ranking[i].job) != -1) {
+					themeColor = "107,240,86";
+				} else if (dps.indexOf(ranking[i].job) != -1)  {
+					themeColor = "200,3,8";
+				} else if (tank.indexOf(ranking[i].job) != -1) {
+					themeColor = "41,112,243";
+				} else if (ranking[i].job.indexOf("Limit Break") != -1){ 
+					themeColor = "243,102,8";
+				} 
+				
+				box.style.background = "linear-gradient(rgba(" + themeColor + "," + maxOpacity + 
+										((i == myRank)?"),rgba(" + themeColor + ",":"),rgba(0,0,0,") + minOpacity + "))";
+				box.style.border = "1px solid rgba(" + themeColor + ", " + maxOpacity + ")"; 
+				
+				box.style.top = ranking[i].y;
+				box.style.opacity = ranking[i].alpha;
+				
+				var rank = document.createElement("div");
+				rank.className = "rank";
+				rank.innerHTML = (i + 1);
+				box.appendChild(rank);
+				combDiv.appendChild(box);
+				
+			}
+			
+			// draws flashy effect
+			if(setting.flashEnabled && flashFlag && !isLast) {
+				flash1 = document.getElementById("flash1");
+				flash2 = document.getElementById("flash2");
+				
+				flash1.style.top = setting.topOffset + setting.boxHeight * flashPos-50;
+				flash2.style.top = setting.topOffset + setting.boxHeight * flashPos-50;
+				flash1.style.left = -20;
+				
+				
+				if(t < 15) { 
+					flash1.style.opacity = t / 15;
+					
+					flash2.style.opacity = t / 15;
+					flash2.style.width = 80 * t;
+					flash2.style.left = 70*t - flash2.style.width/2;
+				} else { 
+					flash1.style.opacity = 1 - (t - 15) / 35;
+					flash2.style.opacity = 1 - (t - 15) / 35;
+				}
+				
+				t++;
+				if(t >= 50){
+					flash1.style.opacity = 0;
+					flash2.style.opacity = 0;
+					t = 0;
+					flashFlag = false;
+					flashPos = 999;
+				}
+			}
+			
+		}
+
+		// Miniparse フォーマット文字列を解析し、表示文字列を取得する
+		function parseActFormat(str, dictionary) {
+			var result = "";
+
+			var currentIndex = 0;
+			do {
+				var openBraceIndex = str.indexOf('{', currentIndex);
+				if (openBraceIndex < 0) {
+					result += str.slice(currentIndex);
+					break;
+				}
+				else {
+					result += str.slice(currentIndex, openBraceIndex);
+					var closeBraceIndex = str.indexOf('}', openBraceIndex);
+					if (closeBraceIndex < 0) {
+						// parse error!
+						console.log("parseActFormat: Parse error: missing close-brace for " + openBraceIndex.toString() + ".");
+						return "ERROR";
+					} else {
+						var tag = str.slice(openBraceIndex + 1, closeBraceIndex);
+						if (typeof dictionary[tag] !== 'undefined') {
+							result += dictionary[tag];
+						} else {
+							console.log("parseActFormat: Unknown tag: " + tag);
+							result += "ERROR";
+						}
+						currentIndex = closeBraceIndex + 1;
+					}
+				}
+			} while (currentIndex < str.length);
+
+			return result;
+		}
+		
+		
+		// Transforms a name into initials
+		function processName(name) {
+			if(name == "YOU") return name;
+			if(setting.nameInitials == "first"){
+				return name.replace(/([a-z']+)(?=[ ()]*)/, ".");
+			} else if (setting.nameInitials == "last") {
+				return name.replace(/([a-z']+)(?=[ ()]*$)/, ".");
+			} else if (setting.nameInitials == "initials") {
+				return name.replace(/([a-z']+)/g, ".");
+			} else {
+				return name;
+			}
+		}
+	//	var wsUri = "ws://@HOST_PORT@/MiniParse";
+
+
+		function updateTest() {
+			update(dataset[0]);
+			dataset.push(dataset.shift());
+		}
+		
+		drawTimer = setInterval("draw()", 1000/setting.fps);
+	    //updateTimer = setInterval("updateTest()", 2000);
+		
+		//document.onmousedown = function(){updateTest();}
+		// TODO consider times where you dont attack|
+		
+		
+					<!-- function test(obj){ -->
+					<!-- var div1=document.getElementById("xian"); -->
+					<!-- var div2=document.getElementById("dvi2"); -->
+						<!-- div1.style.display="none"; -->
+						<!-- div2.style.display="block"; -->
+						
+					<!-- } -->
+			function test2(obj){
+				var div1=document.getElementById("xian");
+				var div2=document.getElementById("dvi2");
+			//	if div2.style.	 
+							//div1.style.display="block";
+							if(div2.style.display=="block"){
+								div2.style.display="none";}
+								else{
+								div2.style.display="block";}
+								 
+
+						}
+						
+				$(document).ready(function(){
+				$('#container').css('pointer-events', 'none'); 
+				 $(".td111").click(function(){
+				 //点击停止encounter
+				//	EndEncounter();
+				webs.overlayAPI('RequestEnd');
+				 });
+				  $(".td11").click(function(){
+				  $(".td11").hide();
+				  $(".td2").show();
+				
+				  $("#dvi2").hide(2500);
+				//	$('html').css("background-image","url('images/B1G.jpg')");
+				   $("#encounter").animate({opacity:0.3});
+				    
+				  
+				  });
+				  $(".td2").click(function(){
+				  $(".td2").hide();
+				  $(".td11").show();
+				  $("#dvi2").show(2500);
+				//  $('html').css("background-image","url('images/BG.jpg')");
+				  $("#encounter").animate({opacity:1});
+				  
+				  });
+				  $(".combatant").click(function(){
+				//	$('html').css("background-image","url('images/BG.jpg')");
+				  });
+				});
+				
+			//汉化	
+
+	</script>
+</head>
+<body >
+<div id="zooom" >
+<button class="td2" >Show</button> 
+<button class="td11" >Hide</button> 
+<button class="td111" >停止统计</button> 
+<!-- <button class="td11" id="btn1">Show</button>  -->
+<div id="container">
+	
+
+		<div id="flash1" ></div>
+		
+		<!-- <div id="flash2"  onclick="test2(this);" ></div> -->
+<div id="flash2"  ></div>
+
+		<div id="encounter"  >
+			<div id=timezone>
+				<DIV  id="date1" > 
+				<!--<SCRIPT> setInterval("date1.innerHTML=(new Date().toLocaleDateString());",1000);</SCRIPT>-->
+				</DIV>
+				<DIV  id="time1" > 
+					
+				</DIV>
+			</div>
+			<div id="encounter2"  >
+				请开始你的表演。<br>
+				ヾ(@^▽^@)ノ　<br>
+				<!--Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>-->
+			</div>
+
+		
+		</div>
+
+		
+		
+<div id="dvi2" style='display:block'>
+		<div id="combatant" >
+			<!-- ここにヘッダが入る -->
+			<!-- ここに各キャラの情報が入る -->
+		</div>
+	</div>
+	
+</div>
+</div>
+
+<!--<button onclick="forTest('ヘヴィスウィング')" style="top='550px'">emm</button>-->
+</body>
+	<script src="js/lang2.js"></script>
+</html>

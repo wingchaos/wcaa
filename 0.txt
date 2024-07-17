@@ -1,0 +1,697 @@
+0	Savoring the moment? I can feel your excitement...your eagerness to explore the unknown!
+1	Well, for once the fate of the world doesn't rest on our shoulders. We might even get a chance to enjoy ourselves!
+2	Do not be so quick to relax.
+3	Though Tural may seem but a short sail away on a map, the vast seas between brim with peril. The treacherous waters of Shades' Triangle alone have claimed countless vessels.
+4	Even following the “safe” route plotted by Admiral Bloefhiswyn herself, this will be no pleasure cruise.
+5	Perhaps, but my voyage here was uneventful enough. Disappointingly so!
+6	Either way, the two of you have firsthand experience!
+7	Which will be of great comfort in the days ahead, I'm sure.
+8	...Aye, it's nothing new to us!
+9	(-Sprightly Sailor-)All aboard! We're castin' off!
+10	It's time. I trust you have everything you need.
+11	And so does our ship cast off from the docks.
+12	We sail west, as Ketenramm did some eighty years past, bound for the “New World”─known to her children as the continent of Tural.
+13	Just wait, Papa! When this contest is said and done, it'll be your daughter who sits the throne... Me, Wuk Lamat!
+14	Smooth sailing so far?
+15	Aye, so far, so good.
+16	But this sea, she's a fickle one. Calm one moment, blowin' a gale the next.
+17	I'll take my rest while I can, then.
+18	We left port what seems an age ago now, and we've seen naught but open water ahead. I knew Tural was far, but it's another thing to really know.
+19	Speaking of which, some of our fellow passengers have made this trip before─several times in fact. I was able to learn a few things about Tuliyollal and the rite of succession.
+20	Since we still have a long way to go─why not have a chat with them yourself? I'm sure you have questions of your own.
+21	Did you look out across these same waters, Grandfather...?
+22	We're in for a proper storm, it seems.
+23	[PANTING EXERT, FOLLOWED BY SUDDEN SURGE OF NAUSEA - “Ulp!”]
+24	How's your stomach? Any better?
+25	I don't know...what you mean. I don't get seasick.
+26	I'm just feeling...a little nauseous, is all...
+27	Isn't that what seasickness is...?
+28	Erenville, you were born in Tural, yes? Do many Viera live there?
+29	The Shetona, as my people are called, have settlements mainly in the north, in Xak Tural.
+30	And your family?
+31	I know nothing of my father─not even his name.
+32	As for my mother...
+33	[SURPRISED CRY]
+34	[SURPRISED CRY]
+35	[SURPRISED CRY]
+36	[SURPRISED CRY]
+37	[SURPRISED GRUNT]
+38	(-Alarmed Sailor-)We're in the teeth of it now, lads! Reef that sail afore the mast snaps!
+39	Oh dear...
+40	(-Distressed Sailor-)Who the hells was on watch!? This wind's too strong to take in the sai─aaargh!
+41	(-Panicked Sailor-)Man fallen off the mast! We need help!
+42	(-Alarmed Sailor-)Get him belowdecks first!
+43	(-Panicked Sailor-)Quickly, before he's washed overboard!
+44	Come, we should lend what aid we can.
+45	I have not seen the ocean rage with such fury before or since.
+46	The heaving waves tossed our ship about like a toy, sending sailors tumbling...
+47	The dauntless Alisaie, quick to the rescue, was almost lost to the sea herself.
+48	Meanwhile, our champion rushed to deploy the vessel's magical defenses, and thereby shield us from the lightning.
+49	What an extraordinary life <hex:02080CE905FF04>she<hex:FF03>he<hex:03> must lead to be able to operate such a device with practiced ease.
+50	Wuk Lamat, too, threw herself into the rescue efforts, though one might have mistaken her for another soul in distress.
+51	By the time the unruly seas had calmed, our strength was all but spent, and we had yet to even glimpse the shores of Tural.
+52	In retrospect, of course, that battle against the storm would prove a fitting prelude to the coming contest for the throne.
+53	Morning. Joining us for some fresh air?
+54	Seems my belly has settled along with the weather, but I'll feel much better once we're on solid ground.
+55	Ugh, can't be much farther now...can it?
+56	Seabirds.
+57	Land must be near. You need only hold out a while longer.
+58	For a dark moment, I thought the ocean might swallow us. Glad to have my pessimism proven wrong.
+59	In other good news, I examined the sailor who took a fall, and he's faring well. I'm sure he'll make a full recovery.
+60	Good news indeed. If all's well, then we needn't delay in launching the landing boat.
+61	Ships have to lower anchor some way from shore. Too close, and they risk having their underbellies ripped open by the reefs that crowd Tuliyollal's coasts. Come.
+62	Thanks for bringing us all this way!
+63	Hah, we only did what we were paid to do! Couldn't hardly set ye adrift halfway!
+64	If anythin', it should be us thankin' you for helpin' us through that beast of a storm!
+65	As a matter o' fact, everyone's startin' to fancy yer chances in the contest. At this rate, we won't be able to lay wagers no more!
+66	Then I'd better not let you down!
+67	Ulp... Easy, stomach. Easy.
+68	We're the last to board. If there's nothing left to say, then let's shove off, shall we?
+69	Ahh! Blue seas, clear skies, and boundless possibilities... I daresay our destination will soon be in sight.
+70	Enjoying yourself for a change?
+71	There, look my friends! Behold the scene of our next great adventure!
+72	At last, we are come to the land you call the “New World.” To my home, Tural!
+73	Gods... I've seen cities with an impressive mix of cultures, but this is something else!
+74	Is that a...? No. I've never seen Vanu feathers in that color before.
+75	You'll find much here you never knew existed! There may be a sea route now, but visitors to Tuliyollal are still few and far between.
+76	And as we don't build seafaring ships, only a handful of Turali ever venture abroad.
+77	Mamool Ja sellswords, mostly. Those willing to play the fool sail with Lominsan merchants to secure employment in Eorzea.
+78	I suppose that makes us a rare sight in your country.
+79	Rare and currently undocumented. Were there some forms we should fill out, or...?
+80	Forms? Did you forget who you're traveling with?
+81	You are outsiders? Visitors to Tural?
+82	We are.
+83	Our nation is soon to hold a rite of succession to choose its next Dawnservant.
+84	We will not abide interference from foreign agents seeking to foment trouble. What brings you to Tuliyollal?
+85	I can answer that. These fine people are allies in my succession bid.
+86	Th-Third Promise! If you vouch for them, then all is well, of course!
+87	Please accept our apologies!
+88	No need to bow and scrape! That our soldiers are so diligent in their duties fills me with pride.
+89	We'll be continuing our patrol, then!
+90	Well, well. You really are a figure of authority here.
+91	Are you suggesting I don't look the part!?
+92	Anyway, first things first...
+93	I bid you welcome to Tuliyollal!
+94	Br'uk Evu!
+95	My companions must sample your heavenly tacos. One for each of us, please.
+96	Right away, Promise─and I'll pack them tight with my choicest fillings! Only the best for you and your friends!
+97	Did you hear the Silverscales are back? Seems their overseas foray ended in disaster. More than half their warband is missing, including their leader.
+98	Aye, and now keen to rebuild their broken reputations, the survivors seek the golden city. A fool's errand. How many hopefuls have disappeared in search of that fable? They should count their lucky stars they came home alive at all.
+99	The legend of the golden city is well known here, I take it?
+100	It is, but as no one's ever seen it, many question if there is any truth to the tale─like our skeptical Erenville.
+101	I can't imagine the Dawnservant would request a formal survey for a place that doesn't exist...
+102	Now to find a spot with a pleasant view to enjoy our crunchy spoils!
+103	Oof!
+104	Aaaah!
+105	(-Two-headed Mamool Ja-)Oho, if it isn't the Third “Promise.”
+106	Oh no...
+107	(-Two-headed Mamool Ja-)I don't know these ones. New salt?
+108	(-Two-headed Mamool Ja-)Dredged from foreign waters is my guess, Brother.
+109	(-Two-headed Mamool Ja-)Of course, that's it. Wuk Lamat is so afraid of the coming contest that she went crying for special help!
+110	Was there something you wanted, Bakool Ja Ja?
+111	(-Bakool Ja Ja the Mighty-)The Third Promise remembers us! Such an honor!
+112	(-Bakool Ja Ja the Mystic-)Glory on your name, Brother!
+113	(-Bakool Ja Ja the Mighty-)And on yours, Brother!
+114	...I know my rivals for the throne, nothing more.
+115	Another child of the Dawnservant...?
+116	No, this brute─
+117	(-Bakool Ja Ja the Mighty-)We have no ties to their farce of a family!
+118	(-Bakool Ja Ja the Mighty-)Unlike this sniveling house cat, we are blessed siblings! The elevated chosen! We alone are fit to succeed Gulool Ja Ja as Dawnservant!
+119	All peoples are equal in Tuliyollal! Your heritage gives you no greater claim to the throne!
+120	(-Bakool Ja Ja the Mighty-)Shall we test that idea here and now? See if your strength is “equal” to ours?
+121	[FRUSTRATED GRUNT]
+122	None of this has any bearing on the rite of succession, correct? Best not waste your energies on pointless scuffles.
+123	(-Bakool Ja Ja the Mystic-)The kitten comes to the house cat's defense!
+124	(-Bakool Ja Ja the Mighty-)Pathetic! Since when was our nation overrun by mewling weaklings?
+125	Listen to me, you...
+126	[BAKOOL ELDER LAUGHTER - “Gehehehe!”]
+127	[BAKOOL YOUNGER LAUGHTER - “Kyahahaha!”]
+128	A two-headed Mamool Ja... I knew of them, but that's the first I've seen in the flesh.
+129	Some get it into their twin heads that they're destined to follow in my father's footsteps. So they travel to distant lands to hone their battlecraft.
+130	Those are likely the ones you've heard about.
+131	Are there other two-headed claimants?
+132	No, just Bakool Ja Ja. Even in Tural, his kind are far from common.
+133	The Mamool Ja people largely belong to one of three clans. The Hoobigo...
+134	The Boonewa...
+135	And the Doppro.
+136	Every once in a great while, a two-headed offspring is born from a union between the brown-scaled Hoobigo and the blue-scaled Boonewa. The child grows to possess immense strength, both physical and magical.
+137	“Blessed siblings” indeed...
+138	Forget them. Let's go and buy more tacos─I can think of nothing better to rid me of this bad taste in my mouth.
+139	Enjoying your tour of the city, I trust? We've seen our share of notable sights and took a moment to rest.
+140	As such, we're ready to present ourselves at the palace for the rite of succession. Shall we meet you there?
+141	The palace it is. I'll let Wuk Lamat know.
+142	Destiny calls. Perhaps we can return for more tacos later?
+143	...So it goes.
+144	Estinien!? When did he get here...?
+145	More to the point, <hex:021A020203>why<hex:021A020103> is he here?
+146	Oh, you know this man?
+147	Whenever my father spots a promising opponent, he invites them to Sunperch to duel. Pressing duties or no, he can't resist a good fight.
+148	So the one Estinien is crossing blades with...
+149	[REALIZATION REAX - “Oh!”]
+150	That will do, spearman. I would receive my darling daughter.
+151	Know that you are the strongest I've fought in many a moon, if not longer. It is the privilege of a life long lived to face such a formidable soul!
+152	[HEARTY LAUGHTER - “Gwahahahaha!”]
+153	If it's formidable you want, then look no further than that man there.
+154	If it's formidable you want, then look no further than that woman there.
+155	...I see you, warrior.
+156	We had no idea you meant to visit Tural...
+157	I've seen what lies east. This time I chose west.
+158	And thus did our itinerant dragoon make his travel plans.
+159	You witnessed our bout? If you thought he was fearsome, that was with one head dozing.
+160	I'm not sure I understand...
+161	The old man has been feeling his years.
+162	The uncovered side is the Head of Resolve, and age has only deepened his love for combat...
+163	But the Head of Reason, wiser of the two, sleeps more and more these days. As I understand it, the veil helps with the restoration of his magical energies.
+164	Enough about me, Lamaty'i. I want to hear of your adventures.
+165	“Lamaty'i”?
+166	A term of endearment. It's what my family calls me.
+167	[GRUNT OF RECOGNITION]
+168	When last did we see you in the palace? Greetings, Elene'sh─
+169	It's “Erenville” now, Dawnservant.
+170	I took the name while abroad, and have since grown accustomed to it...
+171	Hm. Erenville, then.
+172	And these others, I assume, are Lamaty'i's recruited allies.
+173	Hah, all tempered steel. Yet as much as I'd enjoy testing their mettle, the hour of the rite is at hand. I will summon the other claimants at once.
+174	Then I shall leave you to it.
+175	Good fortune, my friends.
+176	The claimants are assembled.
+177	The First Promise, Zoraal Ja.
+178	The Second Promise, Koana.
+179	The Third Promise, Wuk Lamat.
+180	And lastly, the chosen of Mamook, Bakool Ja Ja.
+181	You four will compete in the rite of succession, the outcome of which will decide who takes my place as Dawnservant.
+182	I am not the man I once was. My wiser half sleeps the days away, and it is time I yield my position.
+183	But mine is a torch that has never been passed. Tuliyollal is young, and so I look to the old ways for inspiration.
+184	The rite of succession─the means by which the Autarch of Mamook was chosen.
+185	Only the two-headed were deemed fit for this contest, but the Tuliyollal I built is a nation of many peoples. Our leader needn't have two heads, nor be a Mamool Ja at all.
+186	[CONTEMPTUOUS SNORT]
+187	So I gave the right of claimant not only to the son I sired, but to my adopted children as well.
+188	Yet the opportunity to rule was still not equal. That is why our recent tournament offered a place in the contest as the winning prize.
+189	[BAKOOL ELDER LAUGHTER - “Gehehehe!”]
+190	(-Bakool Ja Ja the Mighty-)Now you have us to compete against!
+191	(-Bakool Ja Ja the Mighty-)Though it seems the one-head was already too afraid to face us in the tournament!
+192	Our brother was in Xak Tural, leading the Landsguard on a campaign to eradicate a tural vidraal.
+193	Anyone with sense would know he was too busy for games.
+194	Now for the part you've been waiting to hear: the nature of the contest itself.
+195	To triumph in the rite of succession and thereby claim our nation's throne, you must travel the lands of Yok Tural...
+196	...and find the city of gold.
+197	If I may, Father.
+198	Speak, Koana.
+199	The golden city is an ancient Turali legend... But after so many failed attempts to find it, the story has become more faerie tale than fact.
+200	If you would charge us with such a quest, are we then to assume you have proof of the city's existence?
+201	I offer as proof my unbroken word, for I have seen it with my own four eyes.
+202	The city's real? All those years...
+203	This was before the founding of Tuliyollal. I traveled the lands of Tural with my companions, and we ended our journey at the gates to the golden city.
+204	I mean to have you do the same. But in order to achieve victory proper, you'll need to break the seal I put in place.
+205	
+206	Bring them.
+207	The Tuliyollal Saga...
+208	You will retrace the path I walked to unite our peoples, step by step. Along the way, seven chosen electors will be waiting to measure your worth.
+209	Earn their keystones by performing the feats they ask of you.
+210	Once you've fitted each of the seven tablets with a keystone, you'll have the key to unlock the seal on the golden city's gates.
+211	So the contest is in stages, none of which can be skipped by rushing to the ultimate objective.
+212	Exactly. Exciting, isn't it?
+213	Martial tournaments, hunting festivals, and now this... You do so love your contests, Papa.
+214	[LAUGHTER - “Gwahahahaha!”]
+215	Were I a few years younger I would've joined in myself. Given you a proper challenge!
+216	You may think the rite is tedious, or nonsensical, or both. But I am yielding our nation's throne.
+217	Let me have this final indulgence.
+218	(-Bakool Ja Ja the Mighty-)A waste of time. Just name Bakool Ja Ja successor and be done with it.
+219	The rite of succession begins now! I'll be watching your progress with great interest...
+220	And claimants! Remember to collect your tablets before you leave!
+221	You are one of Lamaty'i's allies. Speak freely.
+222	I am Krile Baldesion, representative of the Students of Baldesion. My name is perhaps familiar to you?
+223	Ah...
+224	It would seem you sent this letter to my order some years ago. The ink has since faded and much of the writing is illegible...
+225	Even so, we managed to determine the essence of it: a request to investigate the golden city, addressed to my grandfather Galuf.
+226	Included with the correspondence was this earring.
+227	A faerie tale and a piece of jewelry were enough to convince my grandfather to sail halfway across the world. So there is surely some greater mystery at work here.
+228	On behalf of the Students, I've come to seek clarification on the matter. Have you any knowledge you might share with me?
+229	[GRUNT OF AMUSEMENT]
+230	No. Not at this time.
+231	I have tasked the claimants with finding the golden city. To fulfill your request would afford one of them an unfair advantage in the rite of succession.
+232	...But once the contest is decided, I plan to entrust the entire truth to my successor. If you want to hear it, then you had best help Lamaty'i win.
+233	Very well, Dawnservant.
+234	On my honor as a Student of Baldesion, I will find your golden city!
+235	Thank you for hearing my petition.
+236	How about that. She's grown into a remarkable young woman. You should be proud, Galuf...
+237	Too late to change your mind now, I suppose, but are you sure you wish to be part of this?
+238	Our Third Promise is not wont to take no for an answer. Though you may have agreed to help, I worry that you were swept up in her relentless enthusiasm.
+239	Or perhaps you've been lured by the glory of the golden city... Either way, this contest for the throne will place you and yours at the heart of political turmoil.
+240	If you are second-guessing your decision, tell me now. This may be my last chance to help you withdraw.
+241	(-G'raha Tia-)Life is a series of journeys, my friend, and there's no telling what awaits us on the long road.
+242	(-G'raha Tia-)But what's important is to be true to yourself as you walk it.
+243	(-G'raha Tia-)Only then can we hope to be content when we arrive at the end of one─and step forward into another.
+244	What will you say?
+245	I want to see where this journey leads.
+246	I've made my decision, and I mean to see it through.
+247	So you are committed to your path.
+248	Is that so...
+249	I will speak no more of it, then.
+250	As for my own involvement, I can no longer conduct myself as a mere guide, I think. Not after the Dawnservant's revelation...
+251	(-Cheering Onlooker-)Here they come!
+252	(-Excited Onlooker-)It's Zoraal Ja!
+253	Such a fearsome mien... Make no mistake─there goes Tuliyollal's mightiest warrior.
+254	First Promise. Our village needs aid! The cold weather stunts our crops, and the children of our village go hungry!
+255	Once you ascend the throne, I beg of you, grant my people new lands! Please!
+256	Sareel Ja.
+257	Take heart, tiller of the soil. The Resilient Son, blood heir to the Dawnservant, has heard your pleas.
+258	Zoraal Ja. The First Promise and commander of the Landsguard.
+259	Sareel Ja, the palace seer. As he was so careful to remind the crowd, Zoraal Ja is indeed the natural child of Gulool Ja Ja.
+260	And “Resilient Son”? Is that another title, like the First Promise?
+261	After a fashion. Common knowledge has it that two-headed Mamool Ja cannot sire children...
+262	Yet Zoraal Ja was born all the same, with the Head of Resolve's features and the Head of Reason's scales─an extraordinary example of life's unyielding resilience.
+263	And a warrior's reticence. He says little, but the way he moves... I know a hardened soldier when I see one.
+264	He's a natural swordsman─a gift he inherited from his father. Some even say that the son has already surpassed the sire.
+265	Should he come to power, the First Promise means to employ that martial prowess in the conquest of foreign lands. For this, he and his supporters have been labeled expansionists.
+266	This puts him in direct opposition to Wuk Lamat, who advocates for the preservation of peace.
+267	You may recall that she spoke of a claimant who “cannot be allowed to rule.” That is Zoraal Ja─the warmonger.
+268	Krile? Are you all right?
+269	The Echo... It gave me a glimpse into Zoraal Ja's ambitions.
+270	Deep and unknowable, like an abyss, yet at the same time a roaring, unquenchable fire...
+271	It was a trifle terrifying, to be frank.
+272	Second Promise, you must bring us more marvelous conveniences! More dirigibles and trains and the like! We need you in charge to make trading easier!
+273	The elders, they complain and complain about “abandoning tradition,” but we're not like them, afraid of everything foreign and new!
+274	You have our wholehearted support! With your ingenuity and knowledge, you're sure to win the contest!
+275	Forgive me, but the rite of succession is barely begun. I will hear your petitions if and when I am named Dawnservant.
+276	If you will excuse me.
+277	Plainspoken, as always.
+278	That's our Koana, practical to a fault.
+279	Here we have Koana, the Second Promise, who spent time as a pupil at Sharlayan's own Studium.
+280	Now that you mention it, I think I did see him in the halls once or twice. There was nothing to suggest he was Turali, much less from a royal family.
+281	That was by design. He forewent his usual garb and took an Eorzean name to avoid attention.
+282	So it was Koana who introduced the dirigibles. And the railway, too, given what we just heard...?
+283	In furtherance of his goal: to enrich Tuliyollal with every bright notion he learned of in Sharlayan. He is the hope of those who prize innovation.
+284	As aloof as he may seem, Koana and Wuk Lamat actually get along rather well. They bicker and banter as only close siblings do.
+285	[BAKOOL ELDER LAUGHTER - “Gehehehe!”]
+286	(-Bakool Ja Ja the Mighty-)How gracious of you all to cheer the lesser claimants!
+287	(-Bakool Ja Ja the Mighty-)Oh come now, what are you afraid of? I'm no different from your Dawnservant.
+288	(-Bakool Ja Ja the Mighty-)That my kind should reign is Mamool Ja tradition─and has been so since before there was a Tuliyollal!
+289	(-Bakool Ja Ja the Mighty-)I'll brush aside your feeble contenders, and then you'll see who deserves your fealty!
+290	[BAKOOL YOUNGER LAUGHTER - “Kyahahaha!”]
+291	(-Bakool Ja Ja the Mystic-)Well said, Brother!
+292	The Mamool Ja have finally found peace in Tuliyollal. A pity those fanatics are intent on keeping that “tradition” alive...
+293	The chosen of Mamook, Bakool Ja Ja. Winner of the recent martial tournament, and the only claimant not of the Dawn's Promise.
+294	His strength is undeniable, but...you see how he is. A few devoted Mamool Ja are his only supporters.
+295	What would he do with the throne should he win it?
+296	His policies and so forth? I doubt he's thought much beyond winning the contest itself.
+297	But one thing seems certain: if he does become Dawnservant, he will see the Mamool Ja exalted as the ruling class, and all others forced into subservience.
+298	Sounds like another that “cannot be allowed to rule.”
+299	We wish for one thing, and one thing only, Third Promise: to abide together in harmony, with our neighbors whom we love in this land we share. It is our way─the Turali way.
+300	Gulool Ja Ja built for us this peaceful nation, and we beg you to preserve it!
+301	You have my word! I won't let your pleas go unanswered!
+302	Until Tuliyollal was founded some eighty years ago, this continent was ravaged by war. The eldest among us remember that dark era, and they are Wuk Lamat's most ardent supporters.
+303	Apologies─it's hard to get away!
+304	This is Namikka, my childhood nursemaid. She's been like a mother to me my whole life!
+305	I told her it wasn't necessary, but she insisted on seeing us off.
+306	I place our precious Third Promise into your care.
+307	Did you know Wuk Lamat was taking part in the rite of succession?
+308	Of the Dawn's Promise, I thought it was only Zoraal Ja and Koana. If she has any accomplishments to her name, I've yet to hear them...
+309	Compared to the two Mamool Ja, she pales in martial prowess. And then there's Koana, who's far and away the most educated of the bunch. I hate to say it, but it's hardly a competition.
+310	It's fine. More than anyone, I understand how much better my brothers are than me.
+311	Better? Wuk Lamat, I have never thought of you as the lesser sibling.
+312	Your brothers may excel in their respective ways, but you boast qualities that both lack. A strength that is yours alone. Having cared for you for so long, I should know.
+313	...Thank you, Namikka.
+314	Well, we ought to be on our way.
+315	Yes, hurry along. I await word of your victory with bated breath.
+316	Kozama'uka. The land of rainbow terraces.
+317	It commands the gaze of all who visit without fail. The many-colored marvel.
+318	An endless torrent of water cascades over sheer cliffs to shape the wetlands below. To its relentless flow, all life must yield.
+319	Together with Wuk Lamat, we proceeded along the marshy trail─a road upon which the Dawnservant and his comrades once traveled.
+320	Look at those falls... Even from this distance, you can feel the weight of that water!
+321	The Isle of Haam was impressive, but as you can see, Tuliyollal does not want for natural wonders.
+322	The ground is swampy, so watch your step. You wouldn't want to fall into a bog.
+323	I won't! I told you, I've been here before!
+324	Come on, Ok'hanu isn't much farther.
+325	No sign of Zoraal Ja or that oversized lout.
+326	How much easier it would be if Zoraal Ja were to fail here. But that isn't likely to happen...
+327	Honored guests! I am Zanuhali, elder of the Hanu.
+328	I am also an elector, charged with judging which among you is worthy of ascending the throne.
+329	Without further ado, let us talk of the feat.
+330	(-???-)Not so fast! Surely you couldn't begin without us!
+331	Ugh. He made it after all...
+332	No need to fuss─there is no time limit for this challenge. Now, if you would allow me to proceed...
+333	It is here, in Ok'hanu, where my people forged a bond with the Dawnservant during our own chapter of the Tuliyollal Saga.
+334	In homage to those events, I have prepared for you the Feat of Reeds.
+335	Reeds seem to be of great importance to the Hanu. I wonder what this feat entails...
+336	We use reeds in every part of our lives, be it as food or weaving material.
+337	But look around the nearby paddies, and you will see that this season, our crops are failing.
+338	How fortunate, then, that my appointment to elector coincided with this predicament.
+339	For surely, those who aspire to be Dawnservant would find the matter of an ailing harvest a mere trifle to resolve?
+340	Aye, well, it is indeed the duty of a ruler to address the people's woes.
+341	Exactly, exactly! Do well in this, and you will earn my keystone!
+342	(-Bakool Ja Ja the Mighty-)Why bother mucking about in the mud...when we can take the stone by force?
+343	Oh, mercy me! You are a hot-headed fellow, Bakool Ja Ja!
+344	Some electors may enjoy going toe-to-toe with scrappers like you, but I refuse to entertain your base instincts.
+345	Arrangements have been made. Should you attempt to engage a feat-giver in combat without their consent, word of your immediate disqualification will be sent to the palace. If you're still feeling feisty, then by all means, draw your weapon.
+346	(-Bakool Ja Ja the Mighty-)Hmph, this contest is presided over by cowards. There's no sport in fighting you.
+347	Then we can return to the business of <hex:021A020203>earning<hex:021A020103> my keystone.
+348	The Feat of Reeds is begun! Claimants, I wish you the best of luck!
+349	(-Bakool Ja Ja the Mystic-)The clever kitty crossed the seas to study foreign novelties─he might know tricks we don't. Tricks we can use.
+350	(-Bakool Ja Ja the Mighty-)What of Little Miss Mittens?
+351	(-Bakool Ja Ja the Mystic-)Hah, you know the answer to that! Compared to the First and Second Promise, she's a distant Third. Not even in the running!
+352	(-Bakool Ja Ja the Mighty-)Then we see eye to eye on this, Brother. Being Bakool Ja Ja so long with me has rubbed off on you!
+353	(-Bakool Ja Ja the Mighty-)These allies of hers, though... They might be a problem.
+354	Dammit, I'm just as qualified to be here as they are. I'll show them!
+355	Easy now. There's no time limit, remember? Let's keep calm and think things through.
+356	Right. You're right. I won't win against that lumbering vidraal by losing my head!
+357	Hm? What do you want with me?
+358	Right, the greeting...
+359	Ohokaliy!
+360	Ohokaliy!!!
+361	Good, you've brought your manners with you.
+362	When in Ok'hanu, do as the Hanu do. For a country as diverse as ours, the preservation of harmony demands that we respect the cultures of all peoples who call it home.
+363	Well...that explains your familiarity with Hanu customs.
+364	And you speak truth, of course. To live together means to learn about each other.
+365	Ah, I appreciate an open mind.
+366	In fact, I get the sense we've met before...
+367	You─ You're Wuk Lamat!
+368	Oh, what an unexpected honor for old Wuk Evu! Here I am prattling on about manners, and I've gone and insulted the Third Promise herself! There is no excuse for this betrayal of etiquette.
+369	Please, take up your axe and claim my impudent head...
+370	I will not! Keep your head!
+371	I hate formalities anyway, so forget about it, all right?
+372	All right, then. Consider it forgotten.
+373	How...prompt.
+374	We're actually here about the Ihih'hana float. It's in bad shape, and we need you to craft new carrying poles and a new eye. I'm told you work with uyuipo wood and a certain kind of stone...er, abokixa?
+375	That I do. But while I would like nothing more than to offer my services, I just used the last I had of both those materials.
+376	My lumber in particular went to fixing homes damaged by the recent storm. I'll need ten days or so to restock.
+377	We can't wait that long. If you tell me where to go, I'll gather them myself.
+378	What? Send the Third Promise out on an errand like some common lackey? That's utterly unconscionable! A gross violation of social protocol!
+379	I told you not to worry about such things!
+380	All right, then. I shan't worry a whit.
+381	What's with your Hanu friend there?
+382	I am festival leader this season, and have come along to oversee the float's repair.
+383	As strange as it may sound, Wuk Lamat and her friends believe the float is an arcane focus meant to encourage the growth of our struggling reeds.
+384	Too many Hanu have forgotten, it seems, but that is indeed the true purpose of the Lifting of Wings. Your education is impressive, Third Promise.
+385	Well...maybe a little!
+386	Allow me to show you where to procure uyuipo.
+387	We can leave the abokixa to your friends, I presume? Take yourself to Cave Kikitola or thereabouts, and you should find the stones you need.
+388	I've been there once or twice. I can guide you.
+389	That should save us some time.
+390	Alright, then! Let's get moving!
+391	Chosen one. One of your rivals is making progress...
+392	(-Bakool Ja Ja the Mighty-)Ihih'hana, you say...
+393	(-Bakool Ja Ja the Mystic-)Should our first choice fail to deliver, it might be wise to let this play out...
+394	[BAKOOL ELDER LAUGHTER - “Gehehehe...”]
+395	(-Bakool Ja Ja the Mighty-)The Third-rate Promise is making herself useful after all.
+396	Meanwhile, in Ok'hanu...
+397	(-Bakool Ja Ja the Mighty-)Not sure we heard you right, old man. Why don't you say that again.
+398	As many times as you like. The Third Promise tasked me with repairing this float, and I'll not relinquish it to an uncultured brute like you.
+399	Much less one that can't even manage a simple greeting.
+400	(-Bakool Ja Ja the Mystic-)We wanted to handle this in a civilized way, but we're more than willing to kill you.
+401	We have a two-headed problem. Yes, please hurry.
+402	...She's on her way back already?
+403	S-S-Stand back, Wuk Evu! I will protect the float!
+404	[BAKOOL YOUNGER LAUGHTER - “Kyahahaha!”]
+405	(-Bakool Ja Ja the Mystic-)Are you trying to be brave, little bird?
+406	I could never have repaired the float alone─not properly. But thanks to Wuk Lamat and her friends, we can hold Ihih'hana again!
+407	This is a priceless treasure...and as festival leader, I would die to protect it!
+408	(-Bakool Ja Ja the Mystic-)Very well, if that's what you want.
+409	Bakool Ja Ja!
+410	[SWINGING AXE EXERT - “Hyah!”]
+411	Wha─!?
+412	[DERISIVE PUSHING EXERT - “Hmph!”]
+413	I put everything into that blow...
+414	(-Bakool Ja Ja the Mystic-)Good. The better for you to understand the gulf between us.
+415	(-Bakool Ja Ja the Mighty-)But you need more lessons! We'll carve them into your mangy hide until you cry and beg forgiveness!
+416	Your brilliant plan was to steal the float and take the credit? The so-called “blessed siblings” are nothing but cheats!
+417	(-Bakool Ja Ja the Mighty-)Your scorn is sweet music. Come, weaklings─we'll crush you each in turn...or all together, if you like!
+418	Calm yourself, chosen one! If you fight in earnest, this will end in a massacre!
+419	What's more, we have word that our “other” prospect is on the verge of success!
+420	(-Bakool Ja Ja the Mystic-)Then it would be foolish to expend effort swatting gnats.
+421	(-Bakool Ja Ja the Mighty-)Lucky for you, eh?
+422	Two-heads. I see Mamook still clings to that loathsome hope...
+423	Talk to us, Third Promise! You're not dying, are you!?
+424	Hah! It'll take more than that to kill me!
+425	So...are we having this festival or not?
+426	...Yes! Yes, we are!
+427	So few have come...
+428	Patience. Once Ihih'hana gets underway, no Hanu will be able to resist joining in.
+429	Just so! Wuk Evu knows well the heart of the Hanu!
+430	Have faith, Third Promise, and climb aboard the float! It is time for the Lifting of Wings!
+431	Right! Off we go!
+432	Ihih'hana is a prayer for bountiful harvest, but this is not its only meaning.
+433	It is also an exchange of pledges between rider and bearers─a commitment to a long and fruitful friendship.
+434	Listen well, friends! The personage we bear today is Wuk Lamat, the savior of our beloved festival!
+435	Let your shoulders burn or your feathers fall out, but do not even think of dropping her!
+436	Ready and...
+437	[LOUD LIFTING EXERT - “Hraaah!”]
+438	[LOUD LIFTING EXERT - “Hraaah!”]
+439	[LOUD LIFTING EXERT - “Hraaah!”]
+440	[LOUD LIFTING EXERT - “Hraaah!”]
+441	I could get used to this.
+442	Will empty bellies stop you from joining in the fun? Come and help us carry the float!
+443	Well, well, well. To see the day the Dawn's Promise would ride our boat again.
+444	We've not had the honor since you were here, Gulool Ja Ja.
+445	Right, we've enough bearers now! Onwards to Kozanuakiy!
+446	Watch well, for you are about to bear witness to the true glory of Ihih'hana!
+447	The float draws upon our life force, concentrating and amplifying the energy...
+448	Kixaihih then receives that energy and expels it in a great burst, where it showers down upon the land to replenish its vital currents!
+449	It worked!
+450	Like a literal charm!
+451	The float really was helping the reeds...
+452	That was...amazing. To think that such a thing was even possible!
+453	Some of them still look a bit sickly...
+454	I imagine even the harvest magic has its limits. If the Hanu continue their festival tradition year after year, though, the entire field should eventually recover.
+455	Where does that leave us with the feat, then...?
+456	(-???-)You've got nothing to fear on that account.
+457	Our situation could never have resolved itself. The revival of even a single reed would have served to demonstrate your commitment to the task.
+458	That you recognized the nature of the float and found a near-perfect solution in Ihih'hana proves your dedication!
+459	What's more, I don't think I've seen the festival produce such impressive results since I was a mere chirper.
+460	We have been lax in maintaining the float, diluting its magic and reducing Ihih'hana to hollow theater.
+461	But today's events remind us of the power in tradition.
+462	Koana!
+463	I was delayed by an unpleasant encounter, but it seems I arrived at a good time.
+464	Oh...isn't that wonderful.
+465	What!? You just pour in some mystery liquid, and problem solved!?
+466	Stagnant aether was to blame for the reeds' poor condition. I assume that was an alchemical concoction which enhances aetherial conductivity.
+467	It utilized the flowing water as an aetherial current, thereby promoting the transfer of life energies.
+468	A method I could not have devised without the education I received at the Studium and the cooperation of my Archon allies.
+469	Archon allies...?
+470	You see, Lamaty'i? This is why we need to embrace foreign knowledge and technology.
+471	Employed appropriately, they make light work of what would otherwise be arduous labor. There's no need to lug around heavy floats!
+472	Well, you always were the clever one, Brother.
+473	Your approach was no less effective, Wuk Lamat. It achieved the same result.
+474	Indeed it did. And you enjoyed the festival, yes?
+475	 I did! It was so much fun!
+476	Having visited your village before, I thought I knew everything about it.
+477	As it turns out, I knew very little. About the reeds, about Ihih'hana...
+478	With all I've learned this time, I feel as though I've really come to know the Hanu...
+479	And I like you even more now than I did before!
+480	The feeling is mutual. And it's not just you who had a lot to learn, either─I'll never look at our float the same way again!
+481	The two of you have exceeded expectations. Come forth and claim your stones.
+482	Five more to go!
+483	So this is what they look like...
+484	Go on, set it in the tablet!
+485	A perfect fit! That leaves six more.
+486	And on to the next.
+487	Not even a moment of celebration... That's Koana for you.
+488	Third Promise, you must join us for Ihih'hana next season.
+489	As Dawnservant, of course!
+490	Right, it's back to Tuliyollal for now.
+491	Thank you for having us. I look forward to seeing you all again!
+492	These are interesting times, indeed.
+493	The concoction was brewed by Koana himself. It's a test vial, but it should contain the same reagents.
+494	(-Bakool Ja Ja the Mighty-)Good work. We'll use whatever we must to win. For win we must.
+495	Turali poets of yore sang of a mountain that would stand tall even should all other lands sink beneath the sea.
+496	Indomitable and eternal, it arises from Urqopacha─the hundred peaks of time.
+497	Of all the beasts which crawl and fly, only the legendary Valigarmanda could hope to disturb the summit's serene majesty.
+498	Yet with that flying calamity imprisoned by the Dawnservant, what great feat remains for those who would claim the throne?
+499	So this is Urqopacha... I've never actually been here before.
+500	The air is so crisp and clear.
+501	Mountains everywhere you look.
+502	That one massive peak in particular has quite the presence. It puts me in mind of Sohm Al.
+503	That is Worqor Zormor, the tallest mountain in Yok Tural. Its sheer height makes it an imposing climb, but there are other reasons the ambitious keep their distance...
+504	Oh? Do tell.
+505	Hmm, where to begin...
+506	(-???-)Excuse me, but...you're Wuk Lamat, are you not? I-I hadn't thought to encounter one of the Dawn's Promise here of all places...
+507	Ah, but I should introduce myself. I am Bol Noq', a weaver by trade.
+508	Well met, Bol Noq'. We're on our way to Wachunpelo.
+509	Truly? I've just come from there, as it happens.
+510	I'd asked the Pelupelu who sell me their wool to give me a tour of their alpaca ranch.
+511	The head rancher and I shared a bottle of mezcal while he explained the finer points of wool production.
+512	Mezcal? Is that a local beverage?
+513	It's an Urqopacha specialty. A spirit made from distilled agave heart juice.
+514	Yes, and it must have done wonders for my mood, for I tripled my usual order of alpaca wool. They did offer me a discount, though, so it wasn't a bad deal in the end.
+515	Ah, but listen to me boring you with my tedious stories. I-I will leave you before you are lulled to sleep. Good-bye, and safe travels.
+516	Oh, silly me. I almost forgot to say the thing I actually wanted to say.
+517	Peace for Tural─I agree with your vision, Third Promise. You have my support in your bid for the throne.
+518	I gather from his tale we would be foolish to underestimate Pelupelu merchants...
+519	Yes, they do more than run the markets in Tuliyollal. Pelupelu peddlers can be found everywhere in Tural, traveling from place to place on their sturdy alpacas.
+520	They are effusive and engaging speakers, and many's the customer who's been talked into spending more than they bargained for.
+521	They won't find this customer so easily charmed!
+522	Wachunpelo's down the path off the main road! Don't get lost!
+523	It's right there!
+524	Deducing the Dawnservant's elector was the first step of the feat. Too simple a task for this aspiring ruler, eh?
+525	Right... Not hard at all!
+526	Zoraal Ja...
+527	I am told the head ledger, Tobli, is to be found here.
+528	You have to guess which one of us is Tobli! That's part of the test!
+529	You are Tobli.
+530	Without even asking a single question... Very impressive indeed.
+531	With that amusing prologue out of the way, we can proceed to the actual challenge.
+532	Per the Dawnservant's instructions, I was free to devise any manner of feat. I considered a number of possibilities─in the tens column─but I think I have a good one.
+533	You must go forth...and capture for me an alpaca.
+534	While I've not had the best experiences with alpacas, aren't they generally docile creatures? That doesn't sound like much of a challenge.
+535	[SOFT CHUCKLE]
+536	Bring out “the example”!
+537	This is a special kind of alpaca. Would you please approach the animal, Third Promise?
+538	Who, me? Well, it should stay calm if I stay calm, right? That's what Erenville said...
+539	Aaargh!
+540	The little monster spat on me!
+541	Ugh...that <hex:021A020203>stinks<hex:021A020103>!
+542	I can't─ Urrrggghhh!
+543	Alpacas are paradoxical creatures, being both extremely curious and extremely cowardly.
+544	Press your luck when they're frightened, and you'll get a face full of spit...as you've all just witnessed.
+545	Has an awful stench, their expectoration. The globs contain half-digested food, you see, making it an effective deterrent against perceived threats.
+546	Wild valley breeds, like this one, are especially timid─and can therefore be quick to lash out.
+547	They're also especially hardy!
+548	Indeed. We take the rugged wild alpacas and breed them with our gentle domesticated stock. This produces the strong-but-biddable pack animals prized by our traveling merchants.
+549	[PANTING EXERT]
+550	That's all well and good. But did I need to bathe in alpaca spit for you to make your point...?
+551	So the task is to catch a wild alpaca?
+552	That is correct, but be warned that it is a feat easier said than done. I suggest you prepare well before you enter the valley where the creatures dwell.
+553	And by “you,” I mean the claimants only. Allies are not permitted to assist with the catching.
+554	The alpacas will help me judge which of you is worthy of receiving a keystone.
+555	So I'm to chase down a fluffy, spitting demon...and that somehow proves I'm fit to rule.
+556	[SOFT CHUCKLE]
+557	As I said, the Dawnservant granted me the freedom to decide my challenge.
+558	And when you reach the end of the rite, I daresay you will understand why I chose what I chose.
+559	Very well. This won't take long.
+560	W-Wait!
+561	Didn't I warn you this was easier said than done!? There are preparations to be made! Factors to consider!
+562	A beast is a beast. All yield to strength.
+563	So far, this experience has done absolutely nothing to improve my opinion of alpacas.
+564	But that doesn't mean I can't do this! Revolting spit aside, they're just another animal...
+565	Are you all right, Wuk Lamat? We thought we heard you scream...
+566	The Third Promise does not scream! It was more of a...startled yelp.
+567	A scream, in other words.
+568	Did you find the elector?
+569	Oh, we certainly did...
+570	Good luck, Third Promise!
+571	Thanks, I'll need it!
+572	Truth be told, I'm still not sure about alpacas. I'd rather not go near one if I can help it.
+573	But if I'm to rule this nation, then I'll need to learn how to live with them. Tural is their home, too.
+574	Right, I'm off!
+575	So, shall we head back to the ranch, or...
+576	I'm staying here!
+577	As will I. Wuk Lamat is alone in this. The least we can do is stand watch and await her return.
+578	It may be a while yet. Help me pitch the tent.
+579	Trust a gleaner to come prepared for anything.
+580	What's a gleaner?
+581	Someone whose job it is to travel the world and procure uncommon things for their employers. Erenville specializes in finding animals, I believe.
+582	But aren't you a Shetona, from Xak Tural? Why did you cross the salt?
+583	When I was much younger, the thought of leaving Tural never even occurred to me.
+584	But then, some years ago, my mentor tasked me with a difficult hunt.
+585	Something I could never find, she said, so long as I clung to the familiar. She suggested that I leave home─leave Tural─and join the gleaners of Sharlayan.
+586	As one of their number, I could experience the world. Immerse myself in myriad cultures and customs. See the many faces of nature. And once I had learned what is truly important, I would find that which I seek.
+587	My younger self took those words to heart, and off I went to become a gleaner.
+588	Her words alone moved you to leave behind everything you'd ever known? You must have great respect for your mentor.
+589	As it happens, gleaner work was much to my liking, and I all but forgot why I had pursued it in the first place...
+590	Yet events conspired to put me back on the trail I'd abandoned.
+591	Wait... Are you saying you were tasked with finding the city of gold?
+592	I was. And though my hunt is now entangled with the rite of succession, I mean to see it through.
+593	Well then...I understand completely! We all have our reasons for seeking the golden city...
+594	Which is all the more reason for us to work together!
+595	[SHORT AMUSED LAUGH - “Heh.”]
+596	Just so.
+597	She should've been back by now! What if something's happened to her? We need to tell Tobli and arrange a search party!
+598	Wait... Do you hear that?
+599	I did it...
+600	You're utterly spent, and small wonder.
+601	Well done, Third Promise.
+602	The ranch isn't going anywhere. Take a rest in the tent.
+603	I think I will. Thank you all for believing in me.
+604	This is as far as we can go on foot, it seems. We'll have to head back and see about fixing the boat...
+605	Hey! Everyone all right?
+606	I've been meaning to ask, but...how <hex:021A020203>does<hex:021A020103> one become the adopted child of the Dawnservant?
+607	I was but a ball of fuzz at the time, so I don't remember much. My earliest memories are of life in the palace.
+608	All I know is that I was born in Iq Br'aax, a village in Yak T'el. But I've never bothered to return there.
+609	As far as I'm concerned, Gulool Ja Ja is my only parent.
+610	I quite understand. I have no memories of my birth parents either.
+611	For a while, I wanted to learn who they were, but over time that curiosity waned. Galuf was my dear grandfather, and he was all I needed.
+612	So our situations were quite similar.
+613	Even though Papa already had a trueborn son, he raised me and Koana with no less love.
+614	One time, I'd wandered off alone into the forest and gotten lost. Before I became a meal for some beast, Papa dropped everything and came to my rescue.
+615	I was scared and sobbing and ready for a scolding, but the Head of Resolve praised me for surviving the ordeal.
+616	I did get my lecture from the Head of Reason, though! He went on and on about the dangers of the jungle, and all the horrible ways I could've died...
+617	Growing up, Papa was kind and patient, but a tyrant when it came to training. Now, of course, I realize he was preparing me for my duties as a Promise.
+618	For all the good it did...
+619	There's so much I failed to learn about my own country. Whether it's alpacas or Ihih'hana, I hardly know anything!
+620	I've lived such a sheltered life, yet convinced myself I understood Tural and its people!
+621	I don't have Koana's education or Zoraal Ja's strength. I'm all bluff and bravado, not fit to bear my title...
+622	What will you say?
+623	You can't measure your worth by the success of others.
+624	Why do you want the throne?
+625	Don't compare myself to my siblings, you mean?
+626	Why? Because my father built a nation where everyone can live in peace, and I want to keep it that way.
+627	I... I think I see what you're saying.
+628	My reasons for joining the contest have nothing to do with my brothers.
+629	It's always been about the Turali, and what I can do for them!
+630	You said it yourself, how important it is to properly “know” something...
+631	To hear the voices of others, empathize with how they feel, and think how best to serve... In so doing, you'll come ever closer to being the person you wish to be.
+632	I'm sorry, everyone. I've been a fool.
+633	From this moment on, I'll stop trying to be the Promise I'm not. I won't feign strength to hide my weaknesses!
+634	Step by step, I'll learn all there is to know and love about Tuliyollal and my fellow Turali.
+635	It might not be the smoothest path, but it'll be a path of my own making!
+636	I will find the city of gold, for all of us! Along with the answers you seek about your grandfather, Krile. I swear.
+637	I appreciate it, Wuk Lamat. But you needn't take on that burden as well.
+638	Galuf Baldesion dedicated his life to protecting people from all manner of threats.
+639	As his granddaughter, I wouldn't wish to endanger others for the sake of a personal investigation.
+640	So let's just concentrate on winning the contest. We have a shared goal, and if at all possible, I'd rather we enjoy the journey!
+641	Hear, hear. We are companions on the same road, bound for the same destination. With our combined talents, nothing will stop us from reaching the golden city!
+642	Thank you─thank you all. I am proud to call you my friends!
+643	Meanwhile, in the Second Promise's camp...
+644	(-Wuk Lamat-)Thank you─thank you all. I am proud to call you my friends!
+645	They seem to be enjoying themselves. Are you sure you don't want to go and say a word to your sister?
+646	Nay, there is no need for that.
+647	But what of you two? Wuk Lamat's allies are your comrades. It must feel strange to be rivals.
+648	Helping you has made us rivals, aye, but we're not about to break into fisticuffs over it.
+649	Unless of course it is a matter of winning or losing the contest. Then I'll have no qualms about putting Alisaie on her rear.
+650	Despite our long history, never have I been given the chance to test myself against our companions. The thought stirreth within me a most unexpected sense of competition.
+651	[AMUSED SNORT - “Heh”]
+652	Lamaty'i has surrounded herself with distinguished figures indeed. One of the Studium's finest graduates. The head of the Students of Baldesion...
+653	And then there's Eorzea's vaunted champion. If <hex:02080CE905FF04>she<hex:FF03>he<hex:03>'s half the hero you say, then the odds are stacked against us.
+654	Not that I've any intention of bowing out.
+655	Our time in Urqopacha only served to strengthen my resolve. We saw how a single storm cut off the alpaca routes and threw my peoples' lives into disarray.
+656	Such uncertainties are why I advocate for the adoption of Sharlayan innovations, that Tuliyollal might know greater stability and prosperity.
+657	Our nation can change for the better...and I will be the man to change it.
+658	Well, it's a start.
+659	I imagine your experiences on this journey─all the things you'll hear, and feel, and think─will help you refine that approach.
+660	But to return to the subject of the rite, I'm a touch concerned by the condition for victory.
+661	The claimant who breaks the seal becomes Dawnservant─not the one who performed the seven feats first.
+662	The would-be victor need only possess the seven keystones...
+663	That is correct. As the contest wears on, we must brace ourselves for greater conflict.
+664	Meanwhile, with the First Promise...
+665	Your rivals still lag behind.
+666	The Second and Third Promise may have recruited competent lackeys, but none compare to you.
+667	How can they hope to compete with the Resilient Son, the only child ever sired by a two-head!
+668	Only the ignorant or foolish could fail to see that you were born to be Dawnservant!
+669	Such titles mean nothing.
+670	Ah, I neglected to mention... When I first heard the rumors that the contest involved the golden city, I spoke in confidence with Gulool Ja Ja's inner circle.
+671	They all agreed on one thing...
+672	Whoever reaches the city of gold will attain a power so great it can dictate the course of history.
+673	If this power truly exists, then I humbly beg a fair share of it.
+674	Time is passing, and I would put my plans in motion without delay. The useless tool is cast aside, after all.
+675	And just so there is no misunderstanding... You consent to this course no matter who is made to suffer?
+676	In battle, everyone bleeds. The Dawn's Promise is no exception.
+677	What better lesson to teach our people the folly of war.
+678	Earlier, with Bakool Ja Ja...
+679	(-Bakool Ja Ja the Mighty-)I was hoping for a good scrap, but this bloated sack of bile was no challenge at all.
+680	(-Bakool Ja Ja the Mystic-)Hmmm... I wonder if the house cat is dead yet...
+681	(-Bakool Ja Ja the Mighty-)Be a shame to lose a plaything, but we'd still have two more. Heh heh.
+682	If I may ask, chosen one, what are your plans for Tuliyollal after you take the throne?
+683	(-Bakool Ja Ja the Mighty-)Plans? What makes you think we care about all that?
+684	(-Bakool Ja Ja the Mystic-)We care only about the contest, and proving our superiority.
+685	(-Bakool Ja Ja the Mighty-)That would surely please Mother and Father.
+686	(-Bakool Ja Ja the Mystic-)Yes, and when we become Dawnservant, we'll drive out the weakling masses and invite our kin to live in the city.
+687	(-Bakool Ja Ja the Mighty-)Oho, a fine idea! Our family deserves better than that rotten jungle!
+688	(-Bakool Ja Ja the Mighty-)Back to it, then! We must catch up to that one-headed pretender and remind him of the natural order!
+689	I made it...
+690	(-Bakool Ja Ja the Mighty-)I thought we were missing someone. Where have you been?
+691	I feared I was done for when I fell from the boat, yet somehow I made it...
+692	Oh, my arms...I can barely lift them. I-If I could just rest a moment...
+693	(-Bakool Ja Ja the Mystic-)You expect <hex:021A020203>us<hex:021A020103> to wait for <hex:021A020203>you<hex:021A020103>? Those who can't keep up will be left behind.
+694	(-Bakool Ja Ja the Mighty-)My brother has spoken. March, or be fodder for the beasts.
+695	...But I followed the teachings! Everything I've done─everything I've sacrificed─all has been for the blessed siblings!
+696	Wait! Don't leave me behind... I'm begging you!
